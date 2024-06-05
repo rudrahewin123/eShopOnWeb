@@ -1,7 +1,7 @@
 name: eShopOnWeb Build and Test
 
 #Triggers (uncomment line below to use it)
-#on: [push, workflow_dispatch]
+on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
@@ -9,7 +9,7 @@ env:
   LOCATION: westeurope
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: a207048d-03e3-4414-8427-d7e2a7df90db
-  WEBAPP-NAME: eshoponweb-webapp-hewinnaik
+  WEBAPP-NAME: 'eshoponweb-webapp-hewinnaik'
 
 
 jobs:
